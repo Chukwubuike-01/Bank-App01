@@ -37,7 +37,7 @@ loginForm?.addEventListener("submit", function (e) {
     loginMessage.style.color = "green";
     loginMessage.textContent = "Login successful! Redirecting...";
     setTimeout(() => {
-      window.location.href = "dashboard.html"; // ✅ REDIRECT
+      window.location.href = "vault.html"; // ✅ REDIRECT
     }, 1000);
   } else {
     loginMessage.style.color = "red";

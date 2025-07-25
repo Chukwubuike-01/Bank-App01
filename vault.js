@@ -72,7 +72,7 @@ toggleHistoryBtn.addEventListener("click", () => {
 
 // Helpers
 function updateBalance() {
-  balanceDisplay.textContent = `Current Balance: ₦${bankAccount.getBalance()}`;
+  balanceDisplay.textContent = `Current Balance: $${bankAccount.getBalance()}`;
 }
 
 function updateHistory() {
